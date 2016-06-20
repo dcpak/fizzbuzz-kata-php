@@ -1,0 +1,6 @@
+{
+    "name": "pragmatists/fizzbuzz",
+    "require": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
