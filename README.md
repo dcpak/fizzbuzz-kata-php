@@ -1,6 +1,37 @@
 FizzBuzz Kata
 ==================
 
+## Build
+You can build this project using `composer`. You can download composer package manger from: https://getcomposer.org/download/  
+
+Project uses phpunit version 9 that requires a PHP 7.3 or PHP 7.4 (https://phpunit.de/getting-started/phpunit-9.html)
+
+Build project  
+``composer install``
+
+Run tests   
+``composer tets``
+
+
+## Requirements
+
+In this games players count one after another: 1,2,3... But for multiples of 3 they need to say "Fizz" instead of the number. For the multiples of 5 say "Buzz" instead of the number. For numbers which are multiples of both 3 and 5 players need to say "FizzBuzz" instead of the number
+
+You task is to:
+
+1. Write a function that takes one number (larger than 0) and return its representation in FizzBuzz game
+   For instance, for number `3` is should return `"Fizz"`.
+2. Write a program that prints on console answers for numbers from 1 to 100, comma separated
+   For instance, for number `3` the application should print `"1,2,Fizz"` (notice no comma at the end).
+
+
+* Optional requirements:
+
+1. "Fizz" returned also when number contains digit 3
+2. "Buzz" returned also when number contains digit 5.
+3. "Fizz" and "Buzz" when number is multiple or contains digit: 7 i 9.
+
+
 
 ## Wymagania
 
@@ -27,22 +58,3 @@ Twoje zadanie to:
 
 4. Od teraz Fizz, Buzz i Bar mówimy dla podzielności przez/zawierania cyfr 5, 7 i 9 (zamiast 3, 5 i 7).
 
-
-
-## Requirements
-
-In this games players count one after another: 1,2,3... But for multiples of 3 they need to say "Fizz" instead of the number. For the multiples of 5 say "Buzz" instead of the number. For numbers which are multiples of both 3 and 5 players need to say "FizzBuzz" instead of the number
-
-You task is to:
-
-1. Write a function that takes one number (larger than 0) and return its representation in FizzBuzz game
-   For instance, for number `3` is should return `"Fizz"`.
-2. Write a program that prints on console answers for numbers from 1 to 100, comma separated
-   For instance, for number `3` the application should print `"1,2,Fizz"` (notice no comma at the end).
-
-
-* Optional requirements:
-
-1. "Fizz" returned also when number contains digit 3
-2. "Buzz" returned also when number contains digit 5.
-3. "Fizz" and "Buzz" when number is multiple or contains digit: 7 i 9.
