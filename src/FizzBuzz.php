@@ -5,6 +5,6 @@ namespace Orange;
 class FizzBuzz {
 
   public static function getAnswer($number) {
-    return '2';
+    return '1';
   }
 }
