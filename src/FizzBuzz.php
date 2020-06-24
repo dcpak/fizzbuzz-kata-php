@@ -10,6 +10,8 @@ class FizzBuzz {
       $r .= 'Fizz';
     if($number%5 == 0)
       $r .= 'Buzz';
+    if($number%7 == 0)
+      $r .= 'Bar';
     if(!$r)
       $r .= $number;
     return $r;
