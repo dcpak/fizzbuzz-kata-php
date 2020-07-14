@@ -4,8 +4,10 @@ namespace tests;
 
 use PHPUnit\Framework\TestCase;
 use Orange\FizzBuzz;
+use Orange\FizzBuzzGame;
 
 require_once 'src/FizzBuzz.php';
+require_once 'src/FizzBuzzGame.php';
 
 class FizzBuzzTest extends TestCase {
 
@@ -43,6 +45,10 @@ class FizzBuzzTest extends TestCase {
 
   public function test_that_answer_for_15_is_FizzBuzz() {
     $this->assertEquals('FizzBuzz', FizzBuzz::getAnswer(15));
+  }
+
+  public function test_that_answer_for_15_is_FizzBuzzGame() {
+    $this->assertEquals('FizzBuzz', FizzBuzzGame::getAnswer(15));
   }
 
 }
